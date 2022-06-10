@@ -1,0 +1,36 @@
+body{
+    padding:0px;
+    margin:0px
+}
+header{
+    background-color: blue;
+    padding: 20px;
+}
+.content{
+    background-color: orange;
+    float: left;
+    padding-bottom:300px;
+    width:70%;
+}
+.side{
+    background-color: purple;
+    float: right;
+    padding-bottom: 300px;
+    width:30%;
+}
+footer{
+    background-color: green;
+    padding:20px;
+    clear:both;
+}
+.contenair{
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+@media screen and (max-width:800px){
+    .content,.side{
+        float: none;
+        width:100%;
+    }
+}
